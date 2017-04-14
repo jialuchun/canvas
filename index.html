@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>canvas</title>
+</head>
+<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		width: 100%;
+		height: 100%;
+	}
+	body {
+		width: 100%;
+		height: 90%;
+	}
+	canvas {
+		width: 100%;
+		height: 100%;
+		border: 5px solid #3399ff;
+
+	}
+	.canvas_wrap {
+		position: relative;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.font_style {
+		font-size: 50px;
+		font-weight: bold;
+		-webkit-transition:font-size 0.2s ease-out;
+		position: absolute;
+		top: 42%;
+		left: 15%;
+		color: #fff;
+	    background-image: -webkit-linear-gradient(left,#D81159, #E53A40 10%, #FFBC42 20%, #75D701 30%, #30A9DE 40%,#D81159 50%, #E53A40 60%, #FFBC42 70%, #75D701 80%, #30A9DE 90%,#D81159);
+	    -webkit-background-clip: text;
+	    color:transparent;
+	}
+</style>
+<body>
+	<div class="canvas_wrap">
+		<span class="font_style">Design By Seven</span>
+		<canvas id="canvas">
+			当前浏览器不支持，请更换浏览器！
+			
+		</canvas>
+	</div>
+
+	<script src="digit.js"></script>
+	<script src="countdown.js"></script>
+</body>
+</html>
